@@ -1,0 +1,491 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1250"/>
+	<title>[#BOOK-12] [Anna Radka] Zakładka Providers MrBuggy7 wyszukiwarka nie uwzględnia polskich znaków</title>
+	<meta name="generator" content="LibreOffice 6.3.0.4 (Windows)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2023-01-16T21:15:36.185000000"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin-left: 2cm; margin-right: 1cm; margin-top: 1cm; margin-bottom: 1cm }
+		p { margin-bottom: 0.25cm; line-height: 115%; background: transparent }
+		td p { background: transparent }
+		h3 { margin-top: 0.25cm; margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
+		h3.western { font-family: "Liberation Serif", serif; font-size: 14pt; font-weight: bold }
+		h3.cjk { font-family: "NSimSun"; font-size: 14pt; font-weight: bold }
+		h3.ctl { font-family: "Arial"; font-size: 14pt; font-weight: bold }
+		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
+		h2.western { font-family: "Liberation Serif", serif; font-size: 18pt; font-weight: bold }
+		h2.cjk { font-family: "NSimSun"; font-size: 18pt; font-weight: bold }
+		h2.ctl { font-family: "Arial"; font-size: 18pt; font-weight: bold }
+		a:link { color: #000080; so-language: zxx; text-decoration: underline }
+	</style>
+</head>
+<body lang="pl-PL" link="#000080" vlink="#800000" dir="ltr">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff; page-break-before: always">
+	<tr>
+		<td colspan="2" width="100%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><h3 class="western">
+			[BOOK-12]&nbsp;<a href="https://testowanie-1981.atlassian.net/browse/BOOK-12">[Anna
+			Radka] Zakładka Providers MrBuggy7 wyszukiwarka nie uwzględnia
+			polskich znaków</a> Utworzono: 29/lis/22 &nbsp;Zaktualizowano:
+			16/sty/23 
+			</h3>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" style="border: none; padding: 0cm"><p><b>Status:</b></p>
+		</td>
+		<td width="80%" style="border: none; padding: 0cm"><p>Do zrobienia</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" style="border: none; padding: 0cm"><p><b>Projekt:</b></p>
+		</td>
+		<td width="80%" style="border: none; padding: 0cm"><p><a href="https://testowanie-1981.atlassian.net/secure/BrowseProject.jspa?id=10000">Booking</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Komponenty:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Ma wpływ na wersje:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Wersje do poprawienia:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff">
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Typ:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Błąd w programie 
+			</p>
+		</td>
+		<td bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Priorytet:</b> 
+			</p>
+		</td>
+		<td valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Medium 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Osoba zgłaszająca:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			<a href="https://testowanie-1981.atlassian.net/secure/ViewProfile.jspa?accountId=637de1a92acfad92d7b108f6">Anna
+			Radka </a>
+			</p>
+		</td>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Osoba przypisana:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			<a href="https://testowanie-1981.atlassian.net/secure/ViewProfile.jspa?accountId=637de1a92acfad92d7b108f6">Anna
+			Radka </a>
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Rozwiązanie:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nierozwiązane 
+			</p>
+		</td>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Głosy:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			0 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p><a name="labels-10011-value"></a>
+			<b>Etykiety:</b> 
+			</p>
+		</td>
+		<td colspan="3" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			wyszukiwarka 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Pozostały koszt:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Czas poświęcony:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Pierwotne oszacowanie:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Środowisko:</b> 
+			</p>
+		</td>
+		<td colspan="3" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			testowe (development)</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff">
+	<tr valign="top">
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Załączniki:</b> 
+			</p>
+		</td>
+		<td bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			<img src="https://testowanie-1981.atlassian.net/images/icons/attach/file.gif" name="Obraz1" alt="Plik" align="bottom" width="16" height="16" border="0"/>
+
+			MrBuggy7_qX8HwIvHAH.mp4 &nbsp;&nbsp;&nbsp; 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p><a name="customfield_10020-10011-value"></a>
+			<b>Sprint:</b></p>
+		</td>
+		<td width="80%" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Sprint 1 Wdrożenie istotnej cz</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p><a name="customfield_10034-10011-value"></a>
+			<b>koniec zadania:</b></p>
+		</td>
+		<td width="80%" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			29/lis/22 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p><a name="customfield_10019-10011-value"></a>
+			<b>Rank:</b></p>
+		</td>
+		<td width="80%" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			0|i0001f: 
+			</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<center>
+	<table width="100%" cellpadding="2" cellspacing="0">
+		<tr>
+			<td width="1%" bgcolor="#bbbbbb" style="background: #bbbbbb" style="border: none; padding: 0cm"><p align="center">
+				&nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp; 
+				</p>
+			</td>
+			<td style="border: none; padding: 0cm"><p>&nbsp;</p>
+			</td>
+		</tr>
+	</table>
+</center>
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td style="border: 1px solid #cccccc; padding: 0.05cm"><p style="margin-bottom: 0.5cm">
+			W zakładce <b>Providers</b> wyszukiwarka nie uwzględnia polskich
+			znaków. 
+			</p>
+			<p style="margin-bottom: 0.5cm">W rezultacie <b>Providers</b>
+			zawierające niektóre polskie znaki nie będą pokazane w tabelce.</p>
+			<h2 class="western"><a name="Listakrok%C3%B3wdoreprodukcji%3A"></a>
+			Lista kroków do reprodukcji:</h2>
+			<ol>
+				<li><p>Przechodzimy do zakładki <b>Providers</b> 
+				</p>
+				<li><p>Tworzymy nowy <b>Provider</b> zawierający name polski znak
+				&ldquo;Ćma&rdquo; 
+				</p>
+				<li><p style="margin-bottom: 0.5cm">W wyszukiwarkę wpisujemy
+				słowo &ldquo;Ćma&rdquo; 
+				</p>
+			</ol>
+			<h2 class="western"><a name="Rzeczywistyrezultat%3A"></a>Rzeczywisty
+			rezultat:</h2>
+			<ol>
+				<li><p style="margin-bottom: 0.5cm">W tabelce dodany wcześniej
+				<b>Provider</b> nie pokazuje się na liście. 
+				</p>
+			</ol>
+			<h2 class="western"><a name="Oczekiwanezachowanie%3A"></a>Oczekiwane
+			zachowanie:</h2>
+			<p style="margin-bottom: 0.5cm">Wyszukiwarka powinna uwzględniać
+			polskie znaki i prezentować w tabelce faktyczny rezultat.</p>
+			<h2 class="western"><a name="Za%C5%82%C4%85cznik%3A"></a>Załącznik:</h2>
+			<p style="margin-bottom: 0.5cm"><br/>
+<br/>
+
+			</p>
+			<p><br/>
+
+			</p>
+		</td>
+	</tr>
+</table>
+<p>Wygenerowane (Mon Jan 16 20:14:41 UTC 2023) przez Anna Radka z
+użyciem systemu Jira
+1001.0.0-SNAPSHOT#100214-sha1:bdfa1eb56c03b863a8461db4239902042a1a237f.
+</p>
+<p style="margin-left: 0.26cm; margin-right: 0.26cm; margin-top: 0.26cm; margin-bottom: 0.26cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<span style="display: inline-block; border-top: none; border-bottom: 1.50pt solid #000000; border-left: none; border-right: none; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0cm; padding-right: 0cm"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><font color="#000000">This
+XML file does not appear to have any style information associated
+with it. The document tree is shown below.</span></font></font></font></p>
+<p style="margin-left: 0.53cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;!--
+RSS generated by JIRA
+(1001.0.0-SNAPSHOT#100214-sha1:bdfa1eb56c03b863a8461db4239902042a1a237f)
+at Mon Jan 16 20:14:36 UTC 2023 It is possible to restrict the fields
+that are returned in this document by specifying the 'field'
+parameter in your request. For example, to request only the issue key
+and summary add field=key&amp;field=summary to the URL of your
+request. --&gt;</font></font></font></p>
+<div id="folder0" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+	&lt;rss&nbsp;version=&quot;0.92&quot;&gt;</p>
+	<div id="folder1" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+		&lt;channel&gt;</p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;title&gt;Jira&lt;/title&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;link&gt;https://testowanie-1981.atlassian.net&lt;/link&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;description&gt;Ten
+		plik jest reprezentacją XML zgłoszenia&lt;/description&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;language&gt;pl-pl&lt;/language&gt;</font></font></font></p>
+		<div id="folder2" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+			&lt;build-info&gt;</p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;version&gt;1001.0.0-SNAPSHOT&lt;/version&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;build-number&gt;100214&lt;/build-number&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;build-date&gt;13-01-2023&lt;/build-date&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/build-info&gt;</font></font></font></p>
+		</div>
+		<div id="folder3" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;item&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;title&gt;[BOOK-12]
+			[Anna Radka] Zakładka Providers MrBuggy7 wyszukiwarka nie
+			uwzględnia polskich znaków&lt;/title&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;link&gt;https://testowanie-1981.atlassian.net/browse/BOOK-12&lt;/link&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;project&nbsp;id=&quot;10000&quot;&nbsp;key=&quot;BOOK&quot;&gt;Booking&lt;/project&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;description&gt;&lt;p&gt;W
+			zakładce &lt;b&gt;Providers&lt;/b&gt; wyszukiwarka nie uwzględnia
+			polskich znaków. W rezultacie &lt;b&gt;Providers&lt;/b&gt;
+			zawierające niektóre polskie znaki nie będą pokazane w
+			tabelce.&lt;/p&gt; &lt;h2&gt;&lt;a
+			name=&quot;Listakrok%C3%B3wdoreprodukcji%3A&quot;&gt;&lt;/a&gt;Lista
+			kroków do reprodukcji:&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;Przechodzimy
+			do zakładki &lt;b&gt;Providers&lt;/b&gt;&lt;/li&gt; &lt;li&gt;Tworzymy
+			nowy &lt;b&gt;Provider&lt;/b&gt; zawierający name polski znak
+			&ldquo;Ćma&rdquo;&lt;/li&gt; &lt;li&gt;W wyszukiwarkę wpisujemy
+			słowo &ldquo;Ćma&rdquo;&lt;/li&gt; &lt;/ol&gt; &lt;h2&gt;&lt;a
+			name=&quot;Rzeczywistyrezultat%3A&quot;&gt;&lt;/a&gt;Rzeczywisty
+			rezultat:&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;W tabelce dodany
+			wcześniej &lt;b&gt;Provider&lt;/b&gt; nie pokazuje się na
+			liście.&lt;/li&gt; &lt;/ol&gt; &lt;h2&gt;&lt;a
+			name=&quot;Oczekiwanezachowanie%3A&quot;&gt;&lt;/a&gt;Oczekiwane
+			zachowanie:&lt;/h2&gt; &lt;p&gt;Wyszukiwarka powinna uwzględniać
+			polskie znaki i prezentować w tabelce faktyczny rezultat.&lt;/p&gt;
+			&lt;h2&gt;&lt;a name=&quot;Za%C5%82%C4%85cznik%3A&quot;&gt;&lt;/a&gt;Załącznik:&lt;/h2&gt;
+			&lt;p&gt;&lt;div class=&quot;embeddedObject&quot;&gt;&lt;object
+			classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot;
+			codebase=&quot;https://www.apple.com/qtactivex/qtplugin.cab&quot;
+			data=&quot;/secure/attachment/10003/10003_MrBuggy7_qX8HwIvHAH.mp4?stream=true&quot;
+			height=&quot;586&quot; type=&quot;video/mp4&quot; width=&quot;1364&quot;
+			&gt;&lt;param name=&quot;data&quot;
+			value=&quot;/secure/attachment/10003/10003_MrBuggy7_qX8HwIvHAH.mp4?stream=true&quot;/&gt;&lt;param
+			name=&quot;src&quot;
+			value=&quot;/secure/attachment/10003/10003_MrBuggy7_qX8HwIvHAH.mp4?stream=true&quot;/&gt;&lt;param
+			name=&quot;type&quot; value=&quot;video/mp4&quot;/&gt;&lt;embed
+			height=&quot;586&quot;
+			pluginspage=&quot;https://www.apple.com/quicktime/download/&quot;
+			src=&quot;/secure/attachment/10003/10003_MrBuggy7_qX8HwIvHAH.mp4?stream=true&quot;
+			type=&quot;video/mp4&quot; width=&quot;1364&quot;
+			/&gt;&lt;/object&gt;&lt;/div&gt;&lt;/p&gt;&lt;/description&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;environment&gt;&lt;p&gt;testowe
+			(development)&lt;/p&gt;&lt;/environment&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;key&nbsp;id=&quot;10011&quot;&gt;BOOK-12&lt;/key&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;summary&gt;[Anna
+			Radka] Zakładka Providers MrBuggy7 wyszukiwarka nie uwzględnia
+			polskich znaków&lt;/summary&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;type&nbsp;id=&quot;10003&quot;&nbsp;iconUrl=&quot;https://testowanie-1981.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium&quot;&gt;Błąd
+			w programie&lt;/type&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;priority&nbsp;id=&quot;3&quot;&nbsp;iconUrl=&quot;https://testowanie-1981.atlassian.net/images/icons/priorities/medium.svg&quot;&gt;Medium&lt;/priority&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;status&nbsp;id=&quot;10000&quot;&nbsp;iconUrl=&quot;https://testowanie-1981.atlassian.net/&quot;&nbsp;description=&quot;&quot;&gt;Do
+			zrobienia&lt;/status&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;statusCategory&nbsp;id=&quot;2&quot;&nbsp;key=&quot;new&quot;&nbsp;colorName=&quot;blue-gray&quot;/&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;resolution&nbsp;id=&quot;-1&quot;&gt;Nierozwiązane&lt;/resolution&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;assignee&nbsp;accountid=&quot;637de1a92acfad92d7b108f6&quot;&gt;Anna
+			Radka&lt;/assignee&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;reporter&nbsp;accountid=&quot;637de1a92acfad92d7b108f6&quot;&gt;Anna
+			Radka&lt;/reporter&gt;</font></font></font></p>
+			<div id="folder4" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+				&lt;labels&gt;</p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;label&gt;wyszukiwarka&lt;/label&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/labels&gt;</font></font></font></p>
+			</div>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;created&gt;Tue,
+			29 Nov 2022 19:27:34 +0100&lt;/created&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;updated&gt;Mon,
+			16 Jan 2023 21:14:30 +0100&lt;/updated&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;due/&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;votes&gt;0&lt;/votes&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;watches&gt;1&lt;/watches&gt;</font></font></font></p>
+			<div id="folder5" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+				&lt;attachments&gt;</p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;attachment&nbsp;id=&quot;10003&quot;&nbsp;name=&quot;MrBuggy7_qX8HwIvHAH.mp4&quot;&nbsp;size=&quot;229521&quot;&nbsp;author=&quot;637de1a92acfad92d7b108f6&quot;&nbsp;created=&quot;Tue,
+				29 Nov 2022 19:41:01 +0100&quot;/&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/attachments&gt;</font></font></font></p>
+			</div>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;subtasks&gt;&nbsp;&lt;/subtasks&gt;</font></font></font></p>
+			<div id="folder6" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+				&lt;customfields&gt;</p>
+				<div id="folder7" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+					&lt;customfield&nbsp;id=&quot;customfield_10000&quot;&nbsp;key=&quot;com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf&quot;&gt;</p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Development&lt;/customfieldname&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalues&gt;&nbsp;&lt;/customfieldvalues&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+				</div>
+				<div id="folder8" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfield&nbsp;id=&quot;customfield_10019&quot;&nbsp;key=&quot;com.pyxis.greenhopper.jira:gh-lexo-rank&quot;&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Rank&lt;/customfieldname&gt;</font></font></font></p>
+					<div id="folder9" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+						&lt;customfieldvalues&gt;</p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalue&gt;0|i0001f:&lt;/customfieldvalue&gt;</font></font></font></p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfieldvalues&gt;</font></font></font></p>
+					</div>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+				</div>
+				<div id="folder10" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfield&nbsp;id=&quot;customfield_10020&quot;&nbsp;key=&quot;com.pyxis.greenhopper.jira:gh-sprint&quot;&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Sprint&lt;/customfieldname&gt;</font></font></font></p>
+					<div id="folder11" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+						&lt;customfieldvalues&gt;</p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalue&nbsp;id=&quot;1&quot;&gt;Sprint
+						1 Wdrożenie istotnej cz&lt;/customfieldvalue&gt;</font></font></font></p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfieldvalues&gt;</font></font></font></p>
+					</div>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+				</div>
+				<div id="folder12" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfield&nbsp;id=&quot;customfield_10034&quot;&nbsp;key=&quot;com.atlassian.jira.plugin.system.customfieldtypes:datepicker&quot;&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;koniec
+					zadania&lt;/customfieldname&gt;</font></font></font></p>
+					<div id="folder13" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+						&lt;customfieldvalues&gt;</p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalue&gt;Tue,
+						29 Nov 2022 00:00:00 +0000&lt;/customfieldvalue&gt;</font></font></font></p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfieldvalues&gt;</font></font></font></p>
+					</div>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+				</div>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfields&gt;</font></font></font></p>
+			</div>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/item&gt;</font></font></font></p>
+		</div>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/channel&gt;</font></font></font></p>
+	</div>
+	<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+	<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/rss&gt;</font></font></font></p>
+</div>
+<p><br/>
+<br/>
+
+</p>
+</body>
+</html>

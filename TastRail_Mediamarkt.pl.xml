@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		
+			</section>
+			<section>
+		<name>Media Markt [Anna Radka]</name>
+		<description>All test cases by Anna Radka</description>
+						<cases>
+												<case>
+				<id>C4</id>
+				<title>Formularz rejestracji - sprawdzenie Imie i nazwisko /  / happy path / Anna Radka</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Użytkownik nie zalogowany jest na stronie https://mediamarkt.pl/registration
+
+</preconds>
+										<steps>1. Wejdź na stronę https://mediamarkt.pl/registration
+2. W inputy
+a. &apos;Imie&apos;
+b. &apos;Nazwisko&apos;
+3. Wpisz 2 litery
+4. odklikaj obok myszką żeby się zapisało
+
+</steps>
+										<expected>Input &apos;imie&apos; i &apos;nazwisko&apos; odznaczają się na zielono </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C19</id>
+				<title>Formularz rejestracji - numer domu , numer mieszkania/ negative path /Anna Radka</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Użytkownik jest na stronie https://mediamarkt.pl/registration
+2. Użytkownik nie jest zalogowany</preconds>
+										<steps>1. Wejdź na stronę https://mediamarkt.pl/registration
+2. Input - 
+a. &apos;Nr domu&apos;, 
+b. &apos;Nr mieszkania&quot;
+3. wpisz 0 w oba pola
+4. kliknij myszką poza polami &apos;Nr domu&apos;, &apos;Nr mieszkania&quot;
+5. Formularz  zwraca pole zielone
+ ![](index.php?/attachments/get/a58a2c31-af57-4728-b4cf-f8bff6acf23e) 
+ 
+
+</steps>
+										<expected>Formularz powinien zwracać pole czerwone z informacją :&quot;numer domu, numer mieszania nie może być 0&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Formularz rejestracji - numer telefonu/  / happy path / Anna Radka</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Użytkownik jest na stronie https://mediamarkt.pl/registration , nie jest zalogowany
+ </preconds>
+										<steps>1. Wejdz na strone https://mediamarkt.pl/registration
+2. Wypełnij input nr telefonu komórkowego i wstaw 9 cyfr (bez 0 jako pierwsza cyfra) np 558-557-123
+3. Odklikaj myszką poza polem dodawania numeru telefonu.
+
+</steps>
+										<expected>Pole nr telefonu komórkowego odznacza się jako zielone.
+ ![](index.php?/attachments/get/370f99a6-229e-4ec6-a0c1-cc1d41b624d3) 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C37</id>
+				<title>Registration form - city namie / negative path / Anna Radka</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Go to Media Markt registration page https://mediamarkt.pl/registration
+2. User is not log-in</preconds>
+										<steps>1. Go to https://mediamarkt.pl/registration
+2. Choose one letter e.g. &apos;K&apos; in the city name 
+3. Double click apart city name box 
+4. Registration form allowed to put one letter in the name of the city
+ ![](index.php?/attachments/get/7f484d4e-b6f7-4764-aa12-5d9690cc0115) 
+
+</steps>
+										<expected>1. Registrarion form should not allowe to put one letter in city name.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C38</id>
+				<title>Registration form - e-mail address /negative path/ Anna Radka</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. User is on the page https://mediamarkt.pl/registration
+2. User is not log-in</preconds>
+										<steps>1. Go to https://mediamarkt.pl/registration
+2. Inser e-mail address:
+a. email@domain..com
+b. Joe Smith 
+c. あいうえお@domain.com
+3. Double click apart e-mail address box
+4. The box frame is allways red. 
+
+![](index.php?/attachments/get/131d6a9b-fc77-4c73-ad34-85b7484d9741) </steps>
+										<expected>1. The box frame should be red when the e-mail address is incorect.</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>

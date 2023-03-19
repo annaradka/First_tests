@@ -1,0 +1,475 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1250"/>
+	<title>[#ZZT-50] Rejestracja maila na yahoo.com, przy podawaniu danych wymagana jest data urodzin (rok), można wpisać litery</title>
+	<meta name="generator" content="LibreOffice 6.3.0.4 (Windows)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2023-02-02T08:52:14.521000000"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin-left: 2cm; margin-right: 1cm; margin-top: 1cm; margin-bottom: 1cm }
+		p { margin-bottom: 0.25cm; line-height: 115%; background: transparent }
+		td p { background: transparent }
+		h3 { margin-top: 0.25cm; margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
+		h3.western { font-family: "Liberation Serif", serif; font-size: 14pt; font-weight: bold }
+		h3.cjk { font-family: "NSimSun"; font-size: 14pt; font-weight: bold }
+		h3.ctl { font-family: "Arial"; font-size: 14pt; font-weight: bold }
+		a:link { color: #000080; so-language: zxx; text-decoration: underline }
+	</style>
+</head>
+<body lang="pl-PL" link="#000080" vlink="#800000" dir="ltr">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff; page-break-before: always">
+	<tr>
+		<td colspan="2" width="100%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><h3 class="western">
+			[ZZT-50]&nbsp;<a href="https://grupa119.atlassian.net/browse/ZZT-50">Rejestracja
+			maila na yahoo.com, przy podawaniu danych wymagana jest data
+			urodzin (rok), można wpisać litery</a> Utworzono: 30/sty/23
+			&nbsp;Zaktualizowano: 30/sty/23 
+			</h3>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" style="border: none; padding: 0cm"><p><b>Status:</b></p>
+		</td>
+		<td width="80%" style="border: none; padding: 0cm"><p>Do zrobienia</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" style="border: none; padding: 0cm"><p><b>Projekt:</b></p>
+		</td>
+		<td width="80%" style="border: none; padding: 0cm"><p><a href="https://grupa119.atlassian.net/secure/BrowseProject.jspa?id=10000">Zajecia
+			z testowania</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Komponenty:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Ma wpływ na wersje:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Wersje do poprawienia:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff">
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Typ:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Błąd w programie 
+			</p>
+		</td>
+		<td bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Priorytet:</b> 
+			</p>
+		</td>
+		<td valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Medium 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Osoba zgłaszająca:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			<a href="https://grupa119.atlassian.net/secure/ViewProfile.jspa?accountId=63c045d48a7d2f693bf75fa6">Anna
+			Radka </a>
+			</p>
+		</td>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Osoba przypisana:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie przypisano 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Rozwiązanie:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nierozwiązane 
+			</p>
+		</td>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Głosy:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			0 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p><a name="labels-10049-value"></a>
+			<b>Etykiety:</b> 
+			</p>
+		</td>
+		<td colspan="3" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			rejestracja_yahoo 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Pozostały koszt:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Czas poświęcony:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Pierwotne oszacowanie:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Środowisko:</b> 
+			</p>
+		</td>
+		<td colspan="3" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			System operacyjny: Windows 10 Home<br/>
+Przeglądarka: Chrom Wersja
+			109.0.5414.74</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff">
+	<tr valign="top">
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Załączniki:</b> 
+			</p>
+		</td>
+		<td bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			<img src="https://grupa119.atlassian.net/images/icons/attach/image.gif" name="Obraz1" alt="Plik PNG" align="bottom" width="16" height="16" border="0"/>
+
+			chrome_KXizXlCPv3.png &nbsp;&nbsp;&nbsp; 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p><a name="customfield_10020-10049-value"></a>
+			<b>Sprint:</b></p>
+		</td>
+		<td width="80%" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Tablica Sprint 1</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<center>
+	<table width="100%" cellpadding="2" cellspacing="0">
+		<tr>
+			<td width="1%" bgcolor="#bbbbbb" style="background: #bbbbbb" style="border: none; padding: 0cm"><p align="center">
+				&nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp; 
+				</p>
+			</td>
+			<td style="border: none; padding: 0cm"><p>&nbsp;</p>
+			</td>
+		</tr>
+	</table>
+</center>
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td style="border: 1px solid #cccccc; padding: 0.05cm"><p style="margin-bottom: 0.5cm">
+			<b>Opis</b></p>
+			<p style="margin-bottom: 0.5cm">Rejestracja maila na
+			<a href="http://yahoo.com/">http://yahoo.com</a> , przy podawaniu
+			danych wymagana jest data urodzin (rok), można wpisać litery w
+			pole daty.</p>
+			<p style="margin-bottom: 0.5cm"><b>Warunki wstępne</b></p>
+			<ol>
+				<li><p>Użytkownik znajduje się na stronie <a href="https://www.yahoo.com/">https://www.yahoo.com/</a>
+								</p>
+				<li><p style="margin-bottom: 0.5cm">Użytkownik nie posiada konta
+				mailowego na <a href="https://www.yahoo.com/">https://www.yahoo.com/</a>
+								</p>
+			</ol>
+			<p style="margin-bottom: 0.5cm"><b>Kroki do reprodukcji</b></p>
+			<ol>
+				<li><p>Wejdź na stronę <a href="https://www.yahoo.com/">https://www.yahoo.com/</a>
+								</p>
+				<li><p>Pod napisem <a href="http://yahoo.com/">http://yahoo.com</a>
+				wybierz ikonę koperty z napisem 'Mail' 
+				</p>
+				<li><p>Wybierz utwórz konto 
+				</p>
+				<li><p>W polu Imie wpisujemy: Anna 
+				</p>
+				<li><p>W polu Nazwisko wpisujemy:&nbsp;&nbsp;Anna 
+				</p>
+				<li><p>W polu Adres e-mail wpisujemy:&nbsp;&nbsp;annaa511 
+				</p>
+				<li><p>W polu utwórz hasło wpisujemy:&nbsp;&nbsp;Lala_11a 
+				</p>
+				<li><p>W polu rok urodzenia wpisz: Anna 
+				</p>
+				<li><p style="margin-bottom: 0.5cm">Wybierz przycisk 'Kontynuuj' 
+				</p>
+			</ol>
+			<p style="margin-bottom: 0.5cm"><b>Oczekiwany rezultat</b></p>
+			<ol>
+				<li><p style="margin-bottom: 0.5cm">Brak możliwości wpisania
+				liter w date urodzin 
+				</p>
+			</ol>
+			<p style="margin-bottom: 0.5cm"><b>Rzeczywisty rezultat</b></p>
+			<ol>
+				<li><p style="margin-bottom: 0.5cm">Pole data urodzin przyjmuje
+				litery 
+				</p>
+			</ol>
+			<p><br/>
+
+			</p>
+		</td>
+	</tr>
+</table>
+<p>Wygenerowane (Thu Feb 02 07:51:39 UTC 2023) przez Anna Radka z
+użyciem systemu Jira
+1001.0.0-SNAPSHOT#100214-sha1:fcee39fda38cbe42c97836757fb08874d4456a27.
+</p>
+<p><br/>
+<br/>
+
+</p>
+<p style="margin-left: 0.26cm; margin-right: 0.26cm; margin-top: 0.26cm; margin-bottom: 0.26cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<span style="display: inline-block; border-top: none; border-bottom: 1.50pt solid #000000; border-left: none; border-right: none; padding-top: 0cm; padding-bottom: 0.13cm; padding-left: 0cm; padding-right: 0cm"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><font color="#000000">This
+XML file does not appear to have any style information associated
+with it. The document tree is shown below.</span></font></font></font></p>
+<p style="margin-left: 0.53cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;!--
+RSS generated by JIRA
+(1001.0.0-SNAPSHOT#100214-sha1:fcee39fda38cbe42c97836757fb08874d4456a27)
+at Thu Feb 02 07:51:33 UTC 2023 It is possible to restrict the fields
+that are returned in this document by specifying the 'field'
+parameter in your request. For example, to request only the issue key
+and summary add field=key&amp;field=summary to the URL of your
+request. --&gt;</font></font></font></p>
+<div id="folder0" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+	&lt;rss&nbsp;version=&quot;0.92&quot;&gt;</p>
+	<div id="folder1" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+		&lt;channel&gt;</p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;title&gt;Jira&lt;/title&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;link&gt;https://grupa119.atlassian.net&lt;/link&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;description&gt;Ten
+		plik jest reprezentacją XML zgłoszenia&lt;/description&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;language&gt;pl-pl&lt;/language&gt;</font></font></font></p>
+		<div id="folder2" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+			&lt;build-info&gt;</p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;version&gt;1001.0.0-SNAPSHOT&lt;/version&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;build-number&gt;100214&lt;/build-number&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;build-date&gt;01-02-2023&lt;/build-date&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/build-info&gt;</font></font></font></p>
+		</div>
+		<div id="folder3" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;item&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;title&gt;[ZZT-50]
+			Rejestracja maila na yahoo.com, przy podawaniu danych wymagana
+			jest data urodzin (rok), można wpisać litery&lt;/title&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;link&gt;https://grupa119.atlassian.net/browse/ZZT-50&lt;/link&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;project&nbsp;id=&quot;10000&quot;&nbsp;key=&quot;ZZT&quot;&gt;Zajecia
+			z testowania&lt;/project&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;description&gt;&lt;p&gt;&lt;b&gt;Opis&lt;/b&gt;&lt;/p&gt;
+			&lt;p&gt;Rejestracja maila na &lt;a href=&quot;http://yahoo.com&quot;
+			title=&quot;smart-link&quot; class=&quot;external-link&quot;
+			rel=&quot;nofollow noreferrer&quot;&gt;http://yahoo.com&lt;/a&gt;
+			, przy podawaniu danych wymagana jest data urodzin (rok), można
+			wpisać litery w pole daty.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Warunki
+			wstępne&lt;/b&gt;&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Użytkownik
+			znajduje się na stronie &lt;a href=&quot;https://www.yahoo.com/&quot;
+			title=&quot;smart-link&quot; class=&quot;external-link&quot;
+			rel=&quot;nofollow noreferrer&quot;&gt;https://www.yahoo.com/&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;Użytkownik nie posiada konta mailowego na &lt;a
+			href=&quot;https://www.yahoo.com/&quot; title=&quot;smart-link&quot;
+			class=&quot;external-link&quot; rel=&quot;nofollow
+			noreferrer&quot;&gt;https://www.yahoo.com/&lt;/a&gt;&lt;/li&gt;
+			&lt;/ol&gt; &lt;p&gt;&lt;b&gt;Kroki do reprodukcji&lt;/b&gt;&lt;/p&gt;
+			&lt;ol&gt; &lt;li&gt;Wejdź na stronę &lt;a
+			href=&quot;https://www.yahoo.com/&quot; title=&quot;smart-link&quot;
+			class=&quot;external-link&quot; rel=&quot;nofollow
+			noreferrer&quot;&gt;https://www.yahoo.com/&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;Pod napisem &lt;a href=&quot;http://yahoo.com&quot;
+			title=&quot;smart-link&quot; class=&quot;external-link&quot;
+			rel=&quot;nofollow noreferrer&quot;&gt;http://yahoo.com&lt;/a&gt;
+			wybierz ikonę koperty z napisem 'Mail'&lt;/li&gt; &lt;li&gt;Wybierz
+			utwórz konto&lt;/li&gt; &lt;li&gt;W polu Imie wpisujemy: Anna&lt;/li&gt;
+			&lt;li&gt;W polu Nazwisko wpisujemy:&nbsp;&nbsp;Anna&lt;/li&gt;
+			&lt;li&gt;W polu Adres e-mail wpisujemy:&nbsp;&nbsp;annaa511&lt;/li&gt;
+			&lt;li&gt;W polu utwórz hasło wpisujemy:&nbsp;&nbsp;Lala_11a&lt;/li&gt;
+			&lt;li&gt;W polu rok urodzenia wpisz: Anna&lt;/li&gt; &lt;li&gt;Wybierz
+			przycisk 'Kontynuuj'&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&lt;b&gt;Oczekiwany
+			rezultat&lt;/b&gt;&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Brak możliwości
+			wpisania liter w date urodzin&lt;/li&gt; &lt;/ol&gt;
+			&lt;p&gt;&lt;b&gt;Rzeczywisty rezultat&lt;/b&gt;&lt;/p&gt; &lt;ol&gt;
+			&lt;li&gt;Pole data urodzin przyjmuje litery&lt;/li&gt;
+			&lt;/ol&gt;&nbsp;&lt;/description&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;environment&gt;&lt;p&gt;System
+			operacyjny: Windows 10 Home&lt;br/&gt; Przeglądarka: Chrom Wersja
+			109.0.5414.74&lt;/p&gt;&lt;/environment&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;key&nbsp;id=&quot;10049&quot;&gt;ZZT-50&lt;/key&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;summary&gt;Rejestracja
+			maila na yahoo.com, przy podawaniu danych wymagana jest data
+			urodzin (rok), można wpisać litery&lt;/summary&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;type&nbsp;id=&quot;10004&quot;&nbsp;iconUrl=&quot;https://grupa119.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium&quot;&gt;Błąd
+			w programie&lt;/type&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;priority&nbsp;id=&quot;3&quot;&nbsp;iconUrl=&quot;https://grupa119.atlassian.net/images/icons/priorities/medium.svg&quot;&gt;Medium&lt;/priority&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;status&nbsp;id=&quot;10000&quot;&nbsp;iconUrl=&quot;https://grupa119.atlassian.net/&quot;&nbsp;description=&quot;&quot;&gt;Do
+			zrobienia&lt;/status&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;statusCategory&nbsp;id=&quot;2&quot;&nbsp;key=&quot;new&quot;&nbsp;colorName=&quot;blue-gray&quot;/&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;resolution&nbsp;id=&quot;-1&quot;&gt;Nierozwiązane&lt;/resolution&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;assignee&nbsp;accountid=&quot;-1&quot;&gt;Nie
+			przypisano&lt;/assignee&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;reporter&nbsp;accountid=&quot;63c045d48a7d2f693bf75fa6&quot;&gt;Anna
+			Radka&lt;/reporter&gt;</font></font></font></p>
+			<div id="folder4" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+				&lt;labels&gt;</p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;label&gt;rejestracja_yahoo&lt;/label&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/labels&gt;</font></font></font></p>
+			</div>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;created&gt;Mon,
+			30 Jan 2023 11:23:27 +0100&lt;/created&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;updated&gt;Mon,
+			30 Jan 2023 11:25:01 +0100&lt;/updated&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;due/&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;votes&gt;0&lt;/votes&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;watches&gt;1&lt;/watches&gt;</font></font></font></p>
+			<div id="folder5" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+				&lt;attachments&gt;</p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;attachment&nbsp;id=&quot;10013&quot;&nbsp;name=&quot;chrome_KXizXlCPv3.png&quot;&nbsp;size=&quot;28258&quot;&nbsp;author=&quot;63c045d48a7d2f693bf75fa6&quot;&nbsp;created=&quot;Mon,
+				30 Jan 2023 11:25:00 +0100&quot;/&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/attachments&gt;</font></font></font></p>
+			</div>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;subtasks&gt;&nbsp;&lt;/subtasks&gt;</font></font></font></p>
+			<div id="folder6" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+				&lt;customfields&gt;</p>
+				<div id="folder7" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+					&lt;customfield&nbsp;id=&quot;customfield_10000&quot;&nbsp;key=&quot;com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf&quot;&gt;</p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Development&lt;/customfieldname&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalues&gt;&nbsp;&lt;/customfieldvalues&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+				</div>
+				<div id="folder8" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfield&nbsp;id=&quot;customfield_10019&quot;&nbsp;key=&quot;com.pyxis.greenhopper.jira:gh-lexo-rank&quot;&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Rank&lt;/customfieldname&gt;</font></font></font></p>
+					<div id="folder9" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+						&lt;customfieldvalues&gt;</p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalue&gt;0|i000a7:&lt;/customfieldvalue&gt;</font></font></font></p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfieldvalues&gt;</font></font></font></p>
+					</div>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+				</div>
+				<div id="folder10" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfield&nbsp;id=&quot;customfield_10020&quot;&nbsp;key=&quot;com.pyxis.greenhopper.jira:gh-sprint&quot;&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Sprint&lt;/customfieldname&gt;</font></font></font></p>
+					<div id="folder11" dir="ltr"><p style="margin-left: 0.26cm; margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+						&lt;customfieldvalues&gt;</p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalue&nbsp;id=&quot;1&quot;&gt;Tablica
+						Sprint 1&lt;/customfieldvalue&gt;</font></font></font></p>
+						<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+						<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfieldvalues&gt;</font></font></font></p>
+					</div>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+				</div>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfields&gt;</font></font></font></p>
+			</div>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/item&gt;</font></font></font></p>
+		</div>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/channel&gt;</font></font></font></p>
+	</div>
+	<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+	<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/rss&gt;</font></font></font></p>
+</div>
+<p><br/>
+<br/>
+
+</p>
+</body>
+</html>

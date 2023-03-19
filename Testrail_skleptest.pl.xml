@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+	</sections>
+			</section>
+			<section>
+		<name>Anna Radka</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Rejestracja http://skleptest.pl/</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C10</id>
+				<title>1. Rejestracja do serwisu puste pola mail i hasło</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/
+</preconds>
+										<steps>1. Przejdź na stronę My account poprzez kliknięcie przycisku Account na głównym pasku 
+2. W sekcji register zostaw puste pola e-mail, password 
+3. Kliknij przycisk register</steps>
+										<expected>1. Użytkownik nie zostaje zarejestrowany do serwisu
+2. Pojawia się alert / informacja,  że pola e-mail i password nie powinny być w puste.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C29</id>
+				<title>2. Rejestracja użytkownika za pomocą maila i hasła w poprawnym formacje</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1. Przejdź na stronę My account za pomocą przycisku Account na górnym pasku strony 
+2. W polu e-mail wprowadź adres e-mail w poprawnym formacie.
+3. W polu password wprowadź hasło w poprawnym formacie  - min 12 znaków, duże i małe litery oraz znak specjalny
+4. Kliknij przycisk Register</steps>
+										<expected>1. Użytkownik zostaje zarejestrowany do serwisu.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C42</id>
+				<title>3. Rejestracja użytkownika za pomocą e-mail i password w nie poprawnym formacie</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.Przejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1. Przejdź na podstronę My account za pomocą kliknięcia w przycisk Account w prawym górnych rogu strony
+2. W polu e-mail wprowadź e-mail w niepoprawnym formacie np. z 2 x @
+3. W polu password wpisz hasło w niepoprawnym formacie  - mniejsza ilość znaków - poniżej 12
+4. Kliknij przycisk Register</steps>
+										<expected>1. Użytkownik nie zostaje zarejestrowany do serwisu
+2. Wyświetlony zostaje komunikat o niepoprawnym formacie adresu e-mail
+3. Pojawia się informacja o wymaganej ilości znaków w haśle
+4. Do momentu wprowadzenie poprawnej ilości znaków przycisk Register jest nieaktywny 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C52</id>
+				<title>4. Walidacja pola password</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1. Przejdź na podstronę My account za pomocą kliknięcia w przycisk Account w prawym górnych rogu strony
+2. W polu e-mail wprowadź adres e-mail w poprawnym formacie 
+3. W polu password wpisz hasło w niepoprawnym formacie  - mniejsza ilość znaków - poniżej 12
+4. Kliknij przycisk Register</steps>
+										<expected>1. Użytkownik nie zostaje zarejestrowany do serwisu
+2. Pojawia się komunikat o wymaganej ilości znaków w haśle 
+3. Do momentu wprowadzenie poprawnej ilości znaków przycisk Register jest nieaktywny </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C64</id>
+				<title>5. Walidacja pola e-mail</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1. Przejdź na podstronę My account za pomocą kliknięcia w przycisk Account w prawym górnych rogu strony
+2.W polu e-mail wprowadź adres e-mail w niepoprawnym formacie np. używając 2 razy @
+3.W polu password wpisz hasło w poprawnym formacie
+4 Kliknij przycisk Register</steps>
+										<expected>1. Użytkownik nie zostaje zarejestrowany do serwisu
+2. Pojawia się komunikat o nieprawidłowym adresie e-mail</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C77</id>
+				<title>6. Weryfikacja wysyłanie maila aktywacyjnego po poprawnym zarejestrowaniu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1. Przejdź na podstronę My account za pomocą kliknięcia w przycisk Account w prawym górnych rogu strony
+2. W polu e-mail wprowadź adres e-mail w poprawnym formacie
+3. W polu password wpisz hasło w poprawnym formacie - z odpowiednią ilością znaków - min. 12
+4. Kliknij przycisk Register
+5. Przejdź na skrzynkę mailową</steps>
+										<expected>1. Użytkownik zostaje zarejestrowany do serwisu
+2. Pojawia się informacją o wysłaniu maila aktywacyjnego na podaną skrzynkę mailową
+3. w skrzynce mailowej znajduje się mail aktywacyjny do serwisu</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C89</id>
+				<title>7. * Przypadek negatywny rejestracji do serwisu</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/</preconds>
+										<steps_separated><step>
+<index>1</index><content>- Przejdź na podstronę my account za pomocą kliknięcia w przycisk account w g&amp;oacute;rnym pasku strony </content><expected>- Użytkownik zostaje przeniesiony na stronę logowania / rejestracji</expected></step>
+<step>
+<index>2</index><content>- Kliknij przycisk Register bez wypełniania p&amp;oacute;l e-mail i hasło </content><expected>- Użytkownik nie zostaje zarejestrowany 
+- Pojawia się że pola e-mail i hasło nie mogą być puste</expected></step>
+<step>
+<index>3</index><content>- w polu e-mail wpisujemy adres e-mail w niepoprawnym formacie (np. 2 x @)
+- w polu hasło wprowadź hasło w niepoprawnym formacie , mniej znak&amp;oacute;w niż wymagane 12
+- kliknij Register</content><expected>- Użytkownik nie zostaje zarejestrowany do serwisu
+- Pojawia się informacja o nie prawidłowym formacie maila
+- Pojawia się informacja o nieprawidłowym formacie hasła (za mało znak&amp;oacute;w)
+- Przycisk Register jest nieaktywy
+
+</expected></step>
+<step>
+<index>4</index><content>- w polu e-mail wprowadź adres e-mail w poprawnym formacie
+- w polu password wprowadź hasło w nieprawidłowym formacie, mniej znak&amp;oacute;w niż wymagane (poniżej 12)
+- kliknij Register</content><expected>- Użytkownik nie zostaje zarejestrowany do serwisu
+- Pojawia się informacja o nieprawidłowym formacie hasła (za mało znak&amp;oacute;w)
+- Przycisk Register jest nieaktywy
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C105</id>
+				<title>8. * Przypadek pozytywny rejestracji do serwisu</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/</preconds>
+										<steps_separated><step>
+<index>1</index><content>- Przejdź na podstronę my account za pomocą kliknięcia w przycisk account w g&amp;oacute;rnym pasku strony</content><expected>- Użytkownik zostaje przeniesiony na stronę logowania / rejestracji</expected></step>
+<step>
+<index>2</index><content>- W polu e-mail wprowadź e-mail w poprawnym formacie
+- W polu password wprowadź hasło w poprawnym formacie, poprawna długość - min 12 znak&amp;oacute;w
+- Kliknij przycisk Register</content><expected>- Dostajemy informację o poprawnym zarejestrowaniu
+- Pojawia się informacja o wysłaniu maila aktywacyjnego na podaną skrzynkę mailową</expected></step>
+<step>
+<index>3</index><content>- Przejdź do swojej skrzynki mailowej</content><expected>- Mail aktywacyjny doszedł poprawnie na podanego maila</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C355</id>
+				<title>7. Rejestracja użytkownika za pomocą maila już istniejąceogo w bazie danych</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.Przejdź na stronę: http://skleptest.pl/
+</preconds>
+										<steps>1. Przejdź na podstronę my account za pomocą kliknięcia w przycisk account na górnym pasku strony
+2. W polu e-mail wprowadź adres e-mail już zarejestrowanego użytkownika
+3. Wprowadź w polu password poprawne hasło
+4. Kliknij Register
+</steps>
+										<expected>1. Użytkownik nie zostaje zarejestrowany do serwisu
+2. Pojawia się informacja, że podany adres e-mail istnieje już w bazie danych</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Logowanie http://skleptest.pl/</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C124</id>
+				<title>1. Logowanie do serwisu puste pola mail i hasło</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/
+2. Użytkownik posiada konto w systemie</preconds>
+										<steps>1. Przejdź na stronę My account poprzez kliknięcie przycisku Account na głównym pasku
+2. W sekcji Login zostaw puste pola e-mail,i password
+3. Kliknij przycisk Login</steps>
+										<expected>1. Użytkownik nie zostaje zalogowany do serwisu
+2. Pojawia się informacja,  że pola e-mail jest wymagane.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C131</id>
+				<title>2. Logowanie użytkownika za pomocą maila i hasła w poprawnym formacje</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/
+2. Użytkownik posiada konto w systemie</preconds>
+										<steps>1. Przejdź na stronę My account za pomocą przycisku Account na górnym pasku strony
+2. W sekcji login, w polu e-mail wprowadź adres e-mail w poprawnym formacie - anna.radka@op.pl
+3. W polu password wprowadź hasło w poprawnym formacie  - min 12 znaków, duże i małe litery oraz znak specjalny 123456789Lala_111
+4. Kliknij przycisk Login</steps>
+										<expected>1. Użytkownik zostaje zalogowany do serwisu.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C147</id>
+				<title>3. Logowanie użytkownika za pomocą username  i hasła w poprawnym formacje</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/
+2. Użytkownik posiada konto w systemie</preconds>
+										<steps>1. Przejdź na stronę My account za pomocą przycisku Account na górnym pasku strony
+2. W sekcji logowanie w polu Username or email address wprowadź nazwę użytkownika w poprawnym formacie. Anna_Radka
+3. W polu password wprowadź hasło w poprawnym formacie  - min 12 znaków, duże i małe litery oraz znak specjalny 123456789Lala_111
+4. Kliknij przycisk Login
+</steps>
+										<expected>1. Użytkownik zostaje zalogowany do serwisu.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C160</id>
+				<title>4. Walidacja pola username or email</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/
+2. Użytkownik posiada konto w systemie
+
+ 
+</preconds>
+										<steps>1. Przejdź na stronę My account za pomocą przycisku Account na górnym pasku strony
+2. W sekcji logowanie w polu Username or email address wprowadź adres e-mail w niepoprawnym formacie np. używając 2 razy @ - &apos;anna.radka@op.pl@&apos;
+3. W polu password wprowadź hasło w poprawnym formacie  - min 12 znaków, duże i małe litery oraz znak specjalny 123456789Lala_111
+4. Kliknij przycisk Login</steps>
+										<expected>1. Użytkownik nie zostaje zalogowany do serwisu
+2. Pojawia się komunikat o nieprawidłowym adresie e-mail</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C167</id>
+				<title>5. Walidacja pola password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/
+2. Użytkownik posiada konto w systemie</preconds>
+										<steps>1. Przejdź na stronę My account za pomocą przycisku Account na górnym pasku strony
+2. W sekcji logowanie w polu Username or email address wprowadź adres e-mail w poprawnego &apos;anna.radka@op.pl&apos;
+3. W polu password wpisz hasło w niepoprawnym formacie  - mniejsza ilość znaków - poniżej 12
+4. Kliknij przycisk Login
+</steps>
+										<expected>1. Użytkownik nie zostaje zalogowany do serwisu
+2. Pojawia się komunikat o błędnym haśle</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C193</id>
+				<title>6. Weryfikacja przycisku &apos;Remeber Me&apos;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/
+</preconds>
+										<steps>1. Przejdź na stronę My account poprzez kliknięcie przycisku Account na głównym pasku
+2. W sekcji login, w polu e-mail wprowadź adres e-mail w poprawnym formacie.
+3. W polu password wprowadź hasło w poprawnym formacie  - min 12 znaków, duże i małe litery oraz znak specjalny
+4. Zaznacz checkbox &apos;Remember me&apos;
+5. Kliknij przycisk Login
+6. Zamknij stronę
+7. Sprawdź po odpowiednim czasie czy użytkownik jest nadal zalogowany.</steps>
+										<expected>1. Użytkownik zostaje zalogowany do serwisu.
+2. Dane do logowania zostają zapamiętane i przy kolejnym wejściu nie użytkownik się nie musi logować.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C195</id>
+				<title>7. &apos;Lost your password&apos; - weryfikacja po mail / username</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/
+2. Użytkownik posiada konto w systemie</preconds>
+										<steps>1. Przejdź na stronę My account poprzez kliknięcie przycisku Account na głównym pasku
+2. W sekcji login, wybierz &apos;Lost your password&apos; 
+3. Użytkownik zostaje przekierowane na stronę która umożliwia wpisane zarejestrowanego maila, na którego przychodzi nowe hasło</steps>
+										<expected>1. Użytkownik otrzymuje na podanego maila wiadomość z nowym hasłem do serwisu.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C196</id>
+				<title>8. Próba zalogowania się mailem niezarejestrowanym</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1. Przejdź na stronę My account poprzez kliknięcie przycisku Account na głównym pasku
+2. W sekcji login, w polu e-mail wprowadź adres e-mail w poprawnym formacie ale niezarejestrowanym np.: &apos;firstname.last@domain.com&apos;
+3. Wpisujemy hasło w poprawnej formie
+4. Kliknij przycisk Login</steps>
+										<expected>1. Użytkownik nie zostaje zalogowany
+2. Pojawia się informacja o braku możliwości znalezienia użytkownika którego mail został podany. </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C197</id>
+				<title>9. Próba zalogowania błędnym loginem poprawnym hasłem</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Wejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1. Przejdź na stronę My account za pomocą przycisku Account na górnym pasku strony
+2. W sekcji logowanie w polu Username or email address wprowadź adres e-mail w niepoprawnym formacie np. używając 2 razy @ lub adress e-mail niezarejestrowany
+3. W polu password wprowadź hasło w poprawnym formacie  - min 12 znaków, duże i małe litery oraz znak specjalny
+4. Kliknij przycisk Login</steps>
+										<expected>1. Użytkownik nie zostaje zalogowany do serwisu
+2. Pojawia się komunikat o nieprawidłowym adresie e-mail</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Dodawanie i usuwanie z koszyka http://skleptest.pl/</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C249</id>
+				<title>1. Dodanie do koszyka produktu ze strony głównej za pomocą ADD TO CART</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1.Na stronie głównej dodaj do koszyka jeden z dostępnych produktów za pomocą ADD TO CART</steps>
+										<expected>1. Produkt zostaje dodany do koszyka, wartość koszyka zwiększa się o kwotę dodanego produktu</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C253</id>
+				<title>2. Dodanie do koszyka produktu ze strony produktu za pomocą ADD TO CART</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/
+</preconds>
+										<steps>1. Na stronie głównej kliknij w dostępny produkt, aby otworzyć jego szczegóły
+2. Kliknij ADD TO CART</steps>
+										<expected>1. Produkt zostaje dodany do koszyka, wartość koszyka zwiększa się o wartość dodanego produktu</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C265</id>
+				<title>3. Dodanie większej ilości produktów ze strony produktu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1.Na stronie głównej kliknij w dany produkt, żeby otworzyć jego szczegóły
+2.W szczegółowym widoku produktu zwiększ ilość np do 5
+3.Kliknij przycisk ADD TO CART</steps>
+										<expected>1.Do koszyka zostaje dodanych 5 szt wybranego produktu
+2.Wartość koszyka zwiększa się o wartość dodanych 5 szt produktu</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C273</id>
+				<title>4. Zmiana ilości produktów w koszyku</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/
+2. Użytkownik dodał do koszyka 1 szt produktu</preconds>
+										<steps>1.Ze strony głównej przejdź do koszyka
+2.W sekcji Quantity zmień ilość produktu na inną niż 1 - np. 5
+3.Kliknij Update Cart</steps>
+										<expected>1. Po zmianie ilości produktów z 1 szt. na 5 szt. wartość koszyka wzrasta
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C282</id>
+				<title>5. Weryfikacja podsumowania kwoty w koszyku po dodaniu min 2 produktów</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1.Dodaj do koszyka min 2 różne produkty
+2.Przejdź do koszyka</steps>
+										<expected>1. Kwota dodanych min 2 różnych produktów jest poprawna (sumowanie działa)</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C294</id>
+				<title>6. Weryfikacja możliwości dodania dużej ilości jednego produktu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/</preconds>
+										<steps>1. Na stronie głównej otwórz jeden z dostępnych produktów 
+2. Na stronie szczegółowej produktu zmień ilość na 100 lub więcej
+3. Kliknij ADD TO CART</steps>
+										<expected>1. Nie powinno być możliwości dodania więcej niż 99 produktów ze względu na pole dwucyfrowe które jest widoczne
+2. Po wpisaniu większej liczby niż dostępna ilość powinna ustawiać się na max czyli 99</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C306</id>
+				<title>7. Usunięcie produktu z koszyka</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Przejdź na stronę http://skleptest.pl/
+2. Użytkownik ma w koszyku dodany min 1 produkt</preconds>
+										<steps>1. Ze strony głównej przejdź do koszyka
+2. Kliknij przycisk X przy danym produkcie, żeby usunąć go z koszyka</steps>
+										<expected>1. Produkt zostaje usunięty z koszyka
+2. Wartość koszyka zostaje pomniejszona o usunięty produkt</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C317</id>
+				<title>8. Wyczyszczenie wszystkich produktów z koszyka</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.Przejdź na stronę http://skleptest.pl/
+2 Użytkownik ma dodane min 2 różne produkty do koszyka</preconds>
+										<steps>1. Ze strony głównej przejdź do koszyka
+2. Za pomocą przycisku X usuń kolejną wszystkie pozycje w koszyku</steps>
+										<expected>1. W koszyku nie znajduje się żaden produkt
+2. Wartość koszyka po usunięciu wszystkich produktów jest równa 0</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+</suite>

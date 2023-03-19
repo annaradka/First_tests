@@ -1,0 +1,445 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1250"/>
+	<title>[#ZDTES-60] [ANNA/RADKA] - Podstrona pomoc, header - nierównomierne rozmieszczenie toolbar - &quot;Pomoc&quot; i &quot;Infolinia&quot;, tworzą się w drugim rzędzie. </title>
+	<meta name="generator" content="LibreOffice 6.3.0.4 (Windows)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2023-01-16T20:23:57.237000000"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin-left: 2cm; margin-right: 1cm; margin-top: 1cm; margin-bottom: 1cm }
+		p { margin-bottom: 0.25cm; line-height: 115%; background: transparent }
+		td p { background: transparent }
+		h3 { margin-top: 0.25cm; margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
+		h3.western { font-family: "Liberation Serif", serif; font-size: 14pt; font-weight: bold }
+		h3.cjk { font-family: "NSimSun"; font-size: 14pt; font-weight: bold }
+		h3.ctl { font-family: "Arial"; font-size: 14pt; font-weight: bold }
+		a:link { color: #000080; so-language: zxx; text-decoration: underline }
+	</style>
+</head>
+<body lang="pl-PL" link="#000080" vlink="#800000" dir="ltr">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff; page-break-before: always">
+	<tr>
+		<td colspan="2" width="100%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><h3 class="western">
+			[ZDTES-60]&nbsp;<a href="https://kurstest119.atlassian.net/browse/ZDTES-60">[ANNA/RADKA]
+			- Podstrona pomoc, header - nierównomierne rozmieszczenie toolbar
+			- &quot;Pomoc&quot; i &quot;Infolinia&quot;, tworzą się w drugim
+			rzędzie. </a>Utworzono: 15/sty/23 &nbsp;Zaktualizowano: 16/sty/23 
+			</h3>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" style="border: none; padding: 0cm"><p><b>Status:</b></p>
+		</td>
+		<td width="80%" style="border: none; padding: 0cm"><p>TESTING</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" style="border: none; padding: 0cm"><p><b>Projekt:</b></p>
+		</td>
+		<td width="80%" style="border: none; padding: 0cm"><p><a href="https://kurstest119.atlassian.net/secure/BrowseProject.jspa?id=10000">ZDTESTpol119</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Komponenty:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Ma wpływ na wersje:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; padding: 0cm"><p><b>Wersje do poprawienia:</b></p>
+		</td>
+		<td style="border: none; padding: 0cm"><p>Brak 
+			</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff">
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Typ:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Błąd w programie 
+			</p>
+		</td>
+		<td bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Priorytet:</b> 
+			</p>
+		</td>
+		<td valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Low 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Osoba zgłaszająca:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			<a href="https://kurstest119.atlassian.net/secure/ViewProfile.jspa?accountId=63c045d48a7d2f693bf75fa6">Anna
+			Radka </a>
+			</p>
+		</td>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Osoba przypisana:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			<a href="https://kurstest119.atlassian.net/secure/ViewProfile.jspa?accountId=63c045d48a7d2f693bf75fa6">Anna
+			Radka </a>
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Rozwiązanie:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nierozwiązane 
+			</p>
+		</td>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Głosy:</b> 
+			</p>
+		</td>
+		<td width="30%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			0 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p><a name="labels-10059-value"></a>
+			<b>Etykiety:</b> 
+			</p>
+		</td>
+		<td colspan="3" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Brak 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Pozostały koszt:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Czas poświęcony:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Pierwotne oszacowanie:</b></p>
+		</td>
+		<td colspan="3" width="80%" valign="top" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			Nie określono 
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Środowisko:</b> 
+			</p>
+		</td>
+		<td colspan="3" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			System operacyjny: Windows 10 Home<br/>
+Przeglądarka: Chrom Wersja
+			109.0.5414.74 
+			</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background: #ffffff">
+	<tr valign="top">
+		<td width="20%" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p>
+			<b>Załączniki:</b> 
+			</p>
+		</td>
+		<td bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			<img src="https://kurstest119.atlassian.net/images/icons/attach/image.gif" name="Obraz1" alt="Plik PNG" align="bottom" width="16" height="16" border="0"/>
+
+			image-20230115-105008.png &nbsp;&nbsp;&nbsp; 
+			<img src="https://kurstest119.atlassian.net/images/icons/attach/image.gif" name="Obraz2" alt="Plik PNG" align="bottom" width="16" height="16" border="0"/>
+
+			image-20230115-105615.png &nbsp;&nbsp;&nbsp; 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top" bgcolor="#f0f0f0" style="background: #f0f0f0" style="border: none; padding: 0cm"><p><a name="customfield_10019-10059-value"></a>
+			<b>Rank:</b></p>
+		</td>
+		<td width="80%" bgcolor="#ffffff" style="background: #ffffff" style="border: none; padding: 0cm"><p>
+			0|i000cn: 
+			</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
+<center>
+	<table width="100%" cellpadding="2" cellspacing="0">
+		<tr>
+			<td width="1%" bgcolor="#bbbbbb" style="background: #bbbbbb" style="border: none; padding: 0cm"><p align="center">
+				&nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp; 
+				</p>
+			</td>
+			<td style="border: none; padding: 0cm"><p>&nbsp;</p>
+			</td>
+		</tr>
+	</table>
+</center>
+<table width="1868" cellpadding="2" cellspacing="0">
+	<col width="1862"/>
+
+	<tr>
+		<td width="1862" style="border: 1px solid #cccccc; padding: 0.05cm"><p style="margin-bottom: 0.5cm">
+			Opis: Na podstronie pomoc <a href="https://pomoc.mediamarkt.pl/">https://pomoc.mediamarkt.pl/</a>
+			w header nad logo Media Markt w najwyższej 
+			</p>
+			<p style="margin-bottom: 0.5cm">części strony toolbar &ldquo;
+			Pomoc&rdquo; i &ldquo;Infolinia [799 35 35 35|]&rdquo; są źle
+			rozmieszczone - 
+			</p>
+			<p style="margin-bottom: 0.5cm">przeskakują do drugiego rzędu. 
+			</p>
+			<p style="margin-bottom: 0.5cm"><b>Kroki do reprodukcji:</b></p>
+			<ol>
+				<li><p>Wejdz na podstrone pomoc <a href="https://pomoc.mediamarkt.pl/">https://pomoc.mediamarkt.pl/</a>
+								</p>
+				<li><p style="margin-bottom: 0.5cm">W header toolbar &ldquo;
+				Pomoc&rdquo; i &ldquo;Infolinia [799 35 35 35|]&rdquo; znajdują
+				się w drugim rzędzie, 
+				</p>
+			</ol>
+			<p style="margin-bottom: 0.5cm"><b>Rezultat otrzymany:</b> W
+			header toolbar &ldquo;Pomoc&rdquo; i &ldquo;Infolinia [799 35 35
+			35|]&rdquo; znajdują się w drugim rzędzie,</p>
+			<p style="margin-bottom: 0.5cm"><b>Rezultat oczekiwany:</b>
+			Ustawienie informacje &ldquo; Pomoc&rdquo; i &ldquo;Infolinia [799
+			35 35 35|]&rdquo; w jednym rzędzie 
+			</p>
+			<p style="margin-bottom: 0.5cm">jak na stronie głównej. Wszystko w
+			jednym rzędzie.</p>
+			<p style="margin-bottom: 0.5cm"><br/>
+<br/>
+
+			</p>
+			<p><br/>
+
+			</p>
+		</td>
+	</tr>
+</table>
+<p>Wygenerowane (Mon Jan 16 19:21:12 UTC 2023) przez Anna Radka z
+użyciem systemu Jira
+1001.0.0-SNAPSHOT#100214-sha1:bdfa1eb56c03b863a8461db4239902042a1a237f.
+</p>
+<p><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;rss&nbsp;version=&quot;0.92&quot;&gt;</font></font></font></p>
+<div id="folder1" dir="ltr"><p style="margin-bottom: 0cm; line-height: 100%">
+	&lt;channel&gt;</p>
+	<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+	<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;title&gt;Jira&lt;/title&gt;</font></font></font></p>
+	<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+	<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;link&gt;https://kurstest119.atlassian.net&lt;/link&gt;</font></font></font></p>
+	<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+	<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;description&gt;Ten
+	plik jest reprezentacją XML zgłoszenia&lt;/description&gt;</font></font></font></p>
+	<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+	<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;language&gt;pl-pl&lt;/language&gt;</font></font></font></p>
+	<div id="folder2" dir="ltr"><p style="margin-bottom: 0cm; line-height: 100%">
+		&lt;build-info&gt;</p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;version&gt;1001.0.0-SNAPSHOT&lt;/version&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;build-number&gt;100214&lt;/build-number&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;build-date&gt;13-01-2023&lt;/build-date&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/build-info&gt;</font></font></font></p>
+	</div>
+	<div id="folder3" dir="ltr"><p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;item&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;title&gt;[ZDTES-60]
+		[ANNA/RADKA] - Podstrona pomoc, header - nierównomierne
+		rozmieszczenie toolbar - &quot;Pomoc&quot; i &quot;Infolinia&quot;,
+		tworzą się w drugim rzędzie.&nbsp;&lt;/title&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;link&gt;https://kurstest119.atlassian.net/browse/ZDTES-60&lt;/link&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;project&nbsp;id=&quot;10000&quot;&nbsp;key=&quot;ZDTES&quot;&gt;ZDTESTpol119&lt;/project&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;description&gt;&lt;p&gt;Opis:
+		Na podstronie pomoc &lt;a href=&quot;https://pomoc.mediamarkt.pl/&quot;
+		title=&quot;smart-link&quot; class=&quot;external-link&quot;
+		rel=&quot;nofollow noreferrer&quot;&gt;https://pomoc.mediamarkt.pl/&lt;/a&gt;
+		w header nad logo Media Markt w najwyższej części strony toolbar &ldquo;
+		Pomoc&rdquo; i &ldquo;Infolinia &lt;span class=&quot;error&quot;&gt;&amp;#91;799
+		35 35 35|&amp;#93;&lt;/span&gt;&rdquo; są źle rozmieszczone -
+		przeskakują do drugiego rzędu. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Kroki
+		do reprodukcji:&lt;/b&gt;&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Wejdz na
+		podstrone pomoc &lt;a href=&quot;https://pomoc.mediamarkt.pl/&quot;
+		title=&quot;smart-link&quot; class=&quot;external-link&quot;
+		rel=&quot;nofollow
+		noreferrer&quot;&gt;https://pomoc.mediamarkt.pl/&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;W header toolbar &ldquo; Pomoc&rdquo; i &ldquo;Infolinia
+		&lt;span class=&quot;error&quot;&gt;&amp;#91;799 35 35
+		35|&amp;#93;&lt;/span&gt;&rdquo; znajdują się w drugim
+		rzędzie,&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&lt;b&gt;Rezultat
+		otrzymany:&lt;/b&gt; W header toolbar &ldquo;Pomoc&rdquo; i
+		&ldquo;Infolinia &lt;span class=&quot;error&quot;&gt;&amp;#91;799
+		35 35 35|&amp;#93;&lt;/span&gt;&rdquo; znajdują się w drugim
+		rzędzie,&lt;/p&gt; &lt;ol&gt; &lt;li&gt;&lt;span class=&quot;image-wrap&quot;
+		style=&quot;&quot;&gt;&lt;img
+		src=&quot;/secure/attachment/10112/10112_image-20230115-105008.png&quot;
+		alt=&quot;&amp;quot;podstrona pomoc&quot; height=&quot;1024&quot;
+		width=&quot;1821&quot; style=&quot;border: 0px solid black&quot;
+		/&gt;&lt;/span&gt;&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&lt;b&gt;Rezultat
+		oczekiwany:&lt;/b&gt; Ustawienie informacje &ldquo; Pomoc&rdquo; i
+		&ldquo;Infolinia &lt;span class=&quot;error&quot;&gt;&amp;#91;799
+		35 35 35|&amp;#93;&lt;/span&gt;&rdquo; w jednym rzędzie jak na
+		stronie głównej. Wszystko w jednym rzędzie.&lt;/p&gt; &lt;p&gt;&lt;span
+		class=&quot;image-wrap&quot; style=&quot;&quot;&gt;&lt;img
+		src=&quot;/secure/attachment/10111/10111_image-20230115-105615.png&quot;
+		alt=&quot;Poprawne ustawienie&quot; height=&quot;983&quot;
+		width=&quot;1821&quot; style=&quot;border: 0px solid black&quot;
+		/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/description&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;environment&gt;&lt;p&gt;System
+		operacyjny: Windows 10 Home&lt;br/&gt; Przeglądarka: Chrom Wersja
+		109.0.5414.74 &lt;/p&gt;&lt;/environment&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;key&nbsp;id=&quot;10059&quot;&gt;ZDTES-60&lt;/key&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;summary&gt;[ANNA/RADKA]
+		- Podstrona pomoc, header - nierównomierne rozmieszczenie toolbar -
+		&quot;Pomoc&quot; i &quot;Infolinia&quot;, tworzą się w drugim
+		rzędzie.&nbsp;&lt;/summary&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;type&nbsp;id=&quot;10004&quot;&nbsp;iconUrl=&quot;https://kurstest119.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium&quot;&gt;Błąd
+		w programie&lt;/type&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;priority&nbsp;id=&quot;4&quot;&nbsp;iconUrl=&quot;https://kurstest119.atlassian.net/images/icons/priorities/low.svg&quot;&gt;Low&lt;/priority&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;status&nbsp;id=&quot;10006&quot;&nbsp;iconUrl=&quot;https://kurstest119.atlassian.net/&quot;&nbsp;description=&quot;&quot;&gt;TESTING&lt;/status&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;statusCategory&nbsp;id=&quot;4&quot;&nbsp;key=&quot;indeterminate&quot;&nbsp;colorName=&quot;yellow&quot;/&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;resolution&nbsp;id=&quot;-1&quot;&gt;Nierozwiązane&lt;/resolution&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;assignee&nbsp;accountid=&quot;63c045d48a7d2f693bf75fa6&quot;&gt;Anna
+		Radka&lt;/assignee&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;reporter&nbsp;accountid=&quot;63c045d48a7d2f693bf75fa6&quot;&gt;Anna
+		Radka&lt;/reporter&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;labels&gt;&nbsp;&lt;/labels&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;created&gt;Sun,
+		15 Jan 2023 12:02:01 +0100&lt;/created&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;updated&gt;Mon,
+		16 Jan 2023 20:21:02 +0100&lt;/updated&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;due/&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;votes&gt;0&lt;/votes&gt;</font></font></font></p>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;watches&gt;1&lt;/watches&gt;</font></font></font></p>
+		<div id="folder4" dir="ltr"><p style="margin-bottom: 0cm; line-height: 100%">
+			&lt;attachments&gt;</p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;attachment&nbsp;id=&quot;10112&quot;&nbsp;name=&quot;image-20230115-105008.png&quot;&nbsp;size=&quot;161596&quot;&nbsp;author=&quot;ug:23dc898c-c5c4-47a5-987f-7c5ced9c8d71&quot;&nbsp;created=&quot;Sun,
+			15 Jan 2023 12:02:02 +0100&quot;/&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;attachment&nbsp;id=&quot;10111&quot;&nbsp;name=&quot;image-20230115-105615.png&quot;&nbsp;size=&quot;629898&quot;&nbsp;author=&quot;ug:23dc898c-c5c4-47a5-987f-7c5ced9c8d71&quot;&nbsp;created=&quot;Sun,
+			15 Jan 2023 12:02:02 +0100&quot;/&gt;</font></font></font></p>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/attachments&gt;</font></font></font></p>
+		</div>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;subtasks&gt;&nbsp;&lt;/subtasks&gt;</font></font></font></p>
+		<div id="folder5" dir="ltr"><p style="margin-bottom: 0cm; line-height: 100%">
+			&lt;customfields&gt;</p>
+			<div id="folder6" dir="ltr"><p style="margin-bottom: 0cm; line-height: 100%">
+				&lt;customfield&nbsp;id=&quot;customfield_10000&quot;&nbsp;key=&quot;com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf&quot;&gt;</p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Development&lt;/customfieldname&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalues&gt;&nbsp;&lt;/customfieldvalues&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+			</div>
+			<div id="folder7" dir="ltr"><p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfield&nbsp;id=&quot;customfield_10019&quot;&nbsp;key=&quot;com.pyxis.greenhopper.jira:gh-lexo-rank&quot;&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Rank&lt;/customfieldname&gt;</font></font></font></p>
+				<div id="folder8" dir="ltr"><p style="margin-bottom: 0cm; line-height: 100%">
+					&lt;customfieldvalues&gt;</p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalue&gt;0|i000cn:&lt;/customfieldvalue&gt;</font></font></font></p>
+					<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+					<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfieldvalues&gt;</font></font></font></p>
+				</div>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+			</div>
+			<div id="folder9" dir="ltr"><p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfield&nbsp;id=&quot;customfield_10020&quot;&nbsp;key=&quot;com.pyxis.greenhopper.jira:gh-sprint&quot;&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldname&gt;Sprint&lt;/customfieldname&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;customfieldvalues&gt;&nbsp;&lt;/customfieldvalues&gt;</font></font></font></p>
+				<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+				<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfield&gt;</font></font></font></p>
+			</div>
+			<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+			<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/customfields&gt;</font></font></font></p>
+		</div>
+		<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+		<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/item&gt;</font></font></font></p>
+	</div>
+	<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%">
+	<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/channel&gt;</font></font></font></p>
+</div>
+<p style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="monospace"><font size="2" style="font-size: 9pt">&lt;/rss&gt;</font></font></font></p>
+<p><br/>
+<br/>
+
+</p>
+</body>
+</html>
